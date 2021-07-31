@@ -46,5 +46,11 @@ Route::group(['prefix' => 'admin'], function()
 });
 
 Route::get('/', 'BookingController@getIndex');
-Route::controller('booking', 'BookingController');
-Route::controller('admin', 'AdminController');
+//Route::resource('booking', 'BookingController');
+Route::get('booking/calendar/{id}', 'BookingController@getCalendar');
+Route::get('booking/times', 'BookingController@getTimes');
+Route::get('booking/details/{id}', 'BookingController@getDetails');
+Route::post('booking/anyConfirm', 'BookingController@anyConfirm');
+Route::get('booking/confirmed', 'BookingController@anyConfirmed');
+//Route::resource('admin', 'AdminController');
+Route::post('/admin/anySetTime', 'AdminController@anySetTime');
