@@ -1,10 +1,10 @@
-> :warning: **NOTICE** :warning: This project is fully functional, but no longer maintained.
+> :warning: **NOTICE** :warning: This project is fully functional, Please do not hesitate to make pull requests to making grate application together
 
 # booking-app
 
 [![Join the chat at https://gitter.im/zeke8402/booking-app](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/zeke8402/booking-app?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-Laravel 5.1 web application for booking appointments
+Laravel 8 web application for booking appointments
 
 ![Screenshot](https://raw.githubusercontent.com/zeke8402/booking-app/master/preview.png)
 
